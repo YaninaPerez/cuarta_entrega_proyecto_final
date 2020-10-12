@@ -1,0 +1,117 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.menu{
+    background-color: #DE6FA7;
+
+    .navbar .nav-item .nav-link {
+    color: #fff;
+    font-size: 25px;
+    margin: 20px;
+    }
+}
+
+
+#sobreMi{
+    background: url("../img/fondoInfo.jpg");
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    
+
+    p{
+        font-size: 20px;
+        
+        
+    }
+
+    .miFoto{
+        border-radius: 50%;
+        height: 400px;
+        padding: 30px;
+        display: flex;
+        justify-items: center;
+    }
+
+    .background-overlay {
+        background: rgba(192, 102, 192, 0.7);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+}
+
+#galeria{
+    background-color: #DE6FA7;
+    padding: 50px;
+
+    h1{
+        color: white;
+    }
+
+    .col-lg-4{
+        padding: 25px;
+    }
+
+    img{
+        width: 100%; 
+        border-radius: 10%;
+    }
+
+    img:hover{
+        border: 5px solid  #DE6FA7;
+    }
+}
+
+#contacto{
+    background: url("../img/contacto.jpg");
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    
+
+    h1{
+        color: white;
+        text-align: center;
+    }
+    h2{
+        color: white;
+        text-align: center;
+    }
+
+    p{
+        color: white;
+    }
+
+    form{
+        background: rgba(0,0,0,0.4);
+        border-radius: 10px;
+        padding: 20px;
+        
+    }
+
+    input, textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+}
+
+.pie{
+    background-color: #DE6FA7;
+    padding: 20px;
+    
+    p{
+       padding: 30px;
+    }
+
+}
+
+
+
